@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="list" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="grid" />
+        <item
+            android:id="@+id/nav_card"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="card" />
+        <item
+            android:id="@+id/nav_start"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="만보기 시작" />
+        <item
+            android:id="@+id/nav_finish"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="만보기 종료" />
+        <item
+            android:id="@+id/nav_reset"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="초기화" />
+        <item
+            android:id="@+id/nav_step_count"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="0" />
+
+
+
+    </group>
+
+
+
+</menu>
